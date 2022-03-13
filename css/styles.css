@@ -126,17 +126,18 @@ body {
 #cta {
     padding: 5% 15% ;
     text-align: center;
-    background-color: #ef8172;
+    background-color: #ff4c68;
     
 }
 #footer {
-    padding: 5% 15%;
+    padding: 7% 15%;
     text-align: center;
-    background-color: #ef8172;
+    background-color: #fff;
 }
 .cta-para {
     font-family: Montserrat;
-    font-weight: 700;
+    font-weight: 900;
+    font-size: 3.5rem;
     color: #fff;
 }
 @media (max-width: 1030px) {
@@ -157,5 +158,15 @@ body {
 }
 hr {
     color: #fff;
-    
+    border-width: 5px;
+   
+}
+.footer-para {
+    color: #8f8f8f;
+    font-weight: 500;
+}
+a>i {
+    padding: 2% 1%;
+    text-decoration: none !important;
+    color: #444443;
 }
